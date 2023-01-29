@@ -1,3 +1,32 @@
-h1 {
-  color: blue;
+body {
+  display: block;
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  line-height: 1.5;
+  background: var(--secondary-color);
+}
+img {
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+  margin-top: 50px;
+}
+h2 {
+  text-align: center;
+  font-size: 10px;
+  padding-top: 20px;
+}
+:root {
+  --secondary-color: rgb(179, 179, 179, 0.2);
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+.hero {
+  text-align: center;
+  padding-top: 160px;
+}
+.icons {
+  text-align: center;
 }
