@@ -95,8 +95,8 @@ p {
 }
 .events {
   text-align: center;
-  font-size: 44px;
-  padding-top: 30px;
+  font-size: 60px;
+  padding: 30px;
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
